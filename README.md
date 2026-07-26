@@ -1,71 +1,77 @@
-# Hi, I'm Aureo 👋
+# Olá, eu sou o Aureo 👋
 
-**Full-stack & AI engineer · SaaS founder · Shipping software since 1997**
+🇧🇷 Português · [🇺🇸 English](README.en.md)
 
-I take a blank repository and put a **complete product into production** — data
-model, backend, frontend, auth, payments, the AI layer, deploy — and then I
-operate it. I don't own a slice of the stack. I own the thing working, with real
-money moving through it.
+**Engenheiro full-stack e de IA · Fundador de SaaS · Programando desde 1997**
 
-Self-taught since the dial-up era. Running my own one-person software company
-since 2015. No degree, no bootcamp — the evidence is below, and it's clickable.
+Eu pego um repositório em branco e coloco um **produto completo em produção** —
+modelagem de dados, backend, frontend, autenticação, pagamentos, camada de IA,
+deploy — e depois eu opero. Não cuido de um pedaço do stack. Cuido da coisa
+funcionando, com dinheiro de verdade passando por ela.
+
+Autodidata desde a era da internet discada. Toco minha própria empresa de
+software de uma pessoa só desde 2015. Sem diploma, sem bootcamp — a prova está
+logo abaixo, e ela abre com um clique.
 
 ---
 
-### 🚀 Live products
+### 🚀 Produtos no ar
 
 | | | |
 |---|---|---|
-| 🩺 | **[clinexa.com.br](https://clinexa.com.br)** | AI receptionist on WhatsApp for clinics — books, confirms, cuts no-shows. Multi-tenant, guardrails, Stripe + Pix |
-| 🔮 | **[numenia.xyz](https://numenia.xyz)** | Consumer product, no-signup international funnel, 3 locales, purchasing-power-parity pricing |
-| 🚗 | **[themotorcrunch.com](https://themotorcrunch.com)** | 29+ automotive cost calculators, 4 countries, programmatic SEO, 735 tests |
-| 🔍 | **[raiox.digital](https://raiox.digital)** | Free 60-second technical audit of any site, behind an SSRF-hardened fetcher |
-| 🤖 | **[ominixbot.xyz](https://ominixbot.xyz)** | Telegram group-admin bot sold as a subscription service |
+| 🩺 | **[clinexa.com.br](https://clinexa.com.br)** | Recepcionista de IA no WhatsApp para clínicas — agenda, confirma e reduz faltas. Multi-tenant, guardrails, Stripe + Pix |
+| 🔮 | **[numenia.xyz](https://numenia.xyz)** | Produto de consumo, funil internacional sem cadastro, 3 idiomas, preço por paridade de poder de compra |
+| 🚗 | **[themotorcrunch.com](https://themotorcrunch.com)** | 29+ calculadoras de custo automotivo, 4 países, SEO programático, 735 testes |
+| 🔍 | **[raiox.digital](https://raiox.digital)** | Diagnóstico técnico gratuito de qualquer site em 60 segundos, atrás de um fetcher endurecido contra SSRF |
+| 🤖 | **[ominixbot.xyz](https://ominixbot.xyz)** | Bot de administração de grupo no Telegram, vendido por assinatura |
 
 ---
 
-### 🐛 The bug I'm proudest of finding
+### 🐛 O bug que eu tenho mais orgulho de ter achado
 
-A paying customer named `Søren` got the wrong result out of Numenia.
+Um cliente pagante chamado `Søren` recebeu o resultado errado no Numenia.
 
-String normalization treated European letters outside basic Latin — `Ø Æ Þ Ł Ð Đ
-Œ` — as **zero**. No exception, no alert, no 500. The system charged, delivered,
-and the number was wrong. Silent, and retroactive to day one.
+A normalização de string tratava letras europeias fora do Latin básico — `Ø Æ Þ
+Ł Ð Đ Œ` — como **zero**. Sem exceção, sem alerta, sem 500. O sistema cobrou,
+entregou, e o número estava errado. Silencioso, e retroativo desde o primeiro
+dia.
 
-I found it by distrusting a mismatch between the displayed value and the
-persisted one, then running the suite against a set of non-ASCII names.
+Achei desconfiando de uma divergência entre o valor exibido e o valor
+persistido, e rodando a suíte contra um conjunto de nomes fora do ASCII.
 
-I build AI-first, with agents in the loop every day. That bug passed automated
-review without raising anything — from the code's point of view, nothing was
-wrong. **The agent gives leverage; someone still has to distrust the number.**
-That's the part of the job that doesn't get delegated, and it's what I'm selling.
-
----
-
-### 🧰 Open source — the hard parts, extracted from production
-
-- **[multi-tenant-saas-starter](https://github.com/AliceTaylors/multi-tenant-saas-starter)** — tenant isolation · idempotent webhooks, including duplicate delivery · job queue with a dead-letter queue
-- **[llm-safety-guardrails](https://github.com/AliceTaylors/llm-safety-guardrails)** — deterministic guardrails for LLM assistants in health-adjacent domains, plus an eval harness. TypeScript, zero deps
-- **[programmatic-seo-generator](https://github.com/AliceTaylors/programmatic-seo-generator)** — pSEO engine with an auditable indexation threshold (anti scaled-content-abuse)
-- **[portfolio](https://github.com/AliceTaylors/portfolio)** — architecture case studies for everything above
+Eu construo em fluxo IA-first, com agentes no loop todo dia. Aquele bug passou
+pela revisão automatizada sem levantar absolutamente nada — do ponto de vista do
+código, não havia erro. **O agente dá alavancagem; alguém ainda precisa
+desconfiar do número.** Essa é a parte do trabalho que não se delega, e é ela
+que eu estou oferecendo.
 
 ---
 
-### 🛠️ Tech
+### 🧰 Open source — as partes difíceis, extraídas de produção
+
+- **[multi-tenant-saas-starter](https://github.com/AliceTaylors/multi-tenant-saas-starter)** — isolamento de tenant · webhooks idempotentes, incluindo entrega duplicada · fila com dead-letter queue
+- **[llm-safety-guardrails](https://github.com/AliceTaylors/llm-safety-guardrails)** — guardrails determinísticos para assistentes de IA em domínio de saúde, com harness de avaliação. TypeScript, zero dependências
+- **[programmatic-seo-generator](https://github.com/AliceTaylors/programmatic-seo-generator)** — motor de pSEO com limiar de indexação auditável (anti scaled-content-abuse)
+- **[portfolio](https://github.com/AliceTaylors/portfolio)** — case studies de arquitetura de tudo que está acima
+
+---
+
+### 🛠️ Tecnologias
 
 `TypeScript` · `JavaScript` · `Python` · `Node.js` · `React` · `Next.js` ·
 `TanStack` · `Prisma` · `Drizzle` · `PostgreSQL` · `Neon` · `Supabase` ·
 `MongoDB` · `Redis/BullMQ` · `LLMs (OpenAI · Anthropic · OpenRouter)` · `RAG` ·
 `Stripe` · `Pix` · `Docker` · `Linux (nginx, systemd)` · `Vercel` · `Railway` ·
-`Playwright` · `Vitest` · `Technical SEO`
+`Playwright` · `Vitest` · `SEO técnico`
 
 ---
 
-### 💼 Open to
+### 💼 Aberto a
 
-Remote **Senior Full-Stack · Product Engineer · Founding Engineer · AI Engineer**.
+**Senior Full-Stack · Product Engineer · Founding Engineer · AI Engineer** —
+remoto.
 
-I've been writing software for 25 years and never held a job title. Looking for
-my first role inside a team.
+Escrevo software há 25 anos e nunca tive um cargo. Procuro minha primeira
+posição dentro de um time.
 
 📧 aureomanzano@icloud.com · 💼 [LinkedIn](https://www.linkedin.com/in/aureo-manzano-120583421/)
