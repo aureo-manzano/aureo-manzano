@@ -2,16 +2,18 @@
 
 🇧🇷 Português · [🇺🇸 English](README.en.md)
 
-**Engenheiro full-stack e de IA · Fundador de SaaS · Programando desde 1997**
+**AI Engineer · Coloco sistemas de LLM em produção — agentes, RAG, guardrails · Full-stack · Desde 1997**
 
-Eu pego um repositório em branco e coloco um **produto completo em produção** —
-modelagem de dados, backend, frontend, autenticação, pagamentos, camada de IA,
-deploy — e depois eu opero. Não cuido de um pedaço do stack. Cuido da coisa
-funcionando, com dinheiro de verdade passando por ela.
+Eu construo **IA-first**: orquestro agentes (Claude Code) para colocar sistemas de
+LLM em produção — recepcionista de IA que atende paciente, guardrails de segurança,
+RAG, integração com OpenAI e Anthropic. Mas o que eu entrego não é velocidade de
+digitação. É **julgamento**: sobre integridade de dado, edge case e segurança —
+justamente o que o agente não tem. O agente escreve; eu decido se está certo.
 
-Autodidata desde a era da internet discada. Toco minha própria empresa de
-software de uma pessoa só desde 2015. Sem diploma, sem bootcamp — a prova está
-logo abaixo, e ela abre com um clique.
+Pego um repositório em branco e coloco o produto **inteiro** no ar — dado, backend,
+frontend, pagamentos, camada de IA, deploy — e depois opero. Autodidata desde a era
+da internet discada, tocando minha própria empresa de software desde 2015. Sem
+diploma, sem bootcamp — a prova está logo abaixo, e ela abre com um clique.
 
 ---
 
@@ -24,6 +26,16 @@ logo abaixo, e ela abre com um clique.
 | 🚗 | **[themotorcrunch.com](https://themotorcrunch.com)** | 29+ calculadoras de custo automotivo, 4 países, SEO programático, 735 testes |
 | 🔍 | **[raiox.digital](https://raiox.digital)** | Diagnóstico técnico gratuito de qualquer site em 60 segundos, atrás de um fetcher endurecido contra SSRF |
 | 🤖 | **[ominixbot.xyz](https://ominixbot.xyz)** | Bot de administração de grupo no Telegram, vendido por assinatura |
+
+---
+
+### 🤖 IA em produção (não em slide)
+
+- **Recepcionista de IA que atende paciente** (Clinexa) — agente conversacional em WhatsApp com **guardrails determinísticos**: bloqueia diagnóstico e prescrição, detecta emergência e escala. LLM na frente de gente real, com trava de segurança testável.
+- **[llm-safety-guardrails](https://github.com/aureo-manzano/llm-safety-guardrails)** — biblioteca open source de guardrails para assistentes de IA em saúde, com harness de avaliação (evals). TypeScript, zero dependências.
+- **Orquestração de agentes no dia a dia** — Claude Code no loop, integração com OpenAI e Anthropic, RAG, engenharia de prompt. Construo o sistema; o agente escreve; eu julgo.
+
+Meus 4 anos de medicina não são detalhe aqui: são a razão de eu saber **o que uma IA não pode dizer a um paciente** — e de os guardrails serem os certos.
 
 ---
 
@@ -49,8 +61,8 @@ que eu estou oferecendo.
 
 ### 🧰 Open source — as partes difíceis, extraídas de produção
 
+- **[llm-safety-guardrails](https://github.com/aureo-manzano/llm-safety-guardrails)** — guardrails determinísticos para assistentes de IA em domínio de saúde (detecção de emergência, bloqueio de diagnóstico/prescrição) + harness de avaliação. TypeScript, zero dependências
 - **[multi-tenant-saas-starter](https://github.com/aureo-manzano/multi-tenant-saas-starter)** — isolamento de tenant · webhooks idempotentes, incluindo entrega duplicada · fila com dead-letter queue
-- **[llm-safety-guardrails](https://github.com/aureo-manzano/llm-safety-guardrails)** — guardrails determinísticos para assistentes de IA em domínio de saúde, com harness de avaliação. TypeScript, zero dependências
 - **[programmatic-seo-generator](https://github.com/aureo-manzano/programmatic-seo-generator)** — motor de pSEO com limiar de indexação auditável (anti scaled-content-abuse)
 - **[portfolio](https://github.com/aureo-manzano/portfolio)** — case studies de arquitetura de tudo que está acima
 
@@ -58,18 +70,18 @@ que eu estou oferecendo.
 
 ### 🛠️ Tecnologias
 
-`TypeScript` · `JavaScript` · `Python` · `Node.js` · `React` · `Next.js` ·
-`TanStack` · `Prisma` · `Drizzle` · `PostgreSQL` · `Neon` · `Supabase` ·
-`MongoDB` · `Redis/BullMQ` · `LLMs (OpenAI · Anthropic · OpenRouter)` · `RAG` ·
-`Stripe` · `Pix` · `Docker` · `Linux (nginx, systemd)` · `Vercel` · `Railway` ·
-`Playwright` · `Vitest` · `SEO técnico`
+**IA** · `LLMs (OpenAI · Anthropic · OpenRouter)` · `RAG` · `AI Agents` ·
+`Guardrails / AI Safety` · `Prompt Engineering` · `MCP` · `Claude Code` ·
+`Vector DBs`
+**Stack** · `TypeScript` · `JavaScript` · `Python` · `Node.js` · `React` ·
+`Next.js` · `Prisma` · `PostgreSQL` · `Supabase` · `MongoDB` · `Redis/BullMQ` ·
+`Stripe` · `Pix` · `Docker` · `Linux (nginx, systemd)` · `Vercel` · `Railway`
 
 ---
 
 ### 💼 Aberto a
 
-**Senior Full-Stack · Product Engineer · Founding Engineer · AI Engineer** —
-remoto.
+**AI Engineer · AI Product Engineer · Applied AI / LLM Engineer · Senior Full-Stack** — remoto.
 
 Escrevo software há 25 anos e nunca tive um cargo. Procuro minha primeira
 posição dentro de um time.
