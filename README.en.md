@@ -44,10 +44,10 @@ That's the part of the job that doesn't get delegated, and it's what I'm selling
 
 ### 🧰 Open source — the hard parts, extracted from production
 
-- **[multi-tenant-saas-starter](https://github.com/AliceTaylors/multi-tenant-saas-starter)** — tenant isolation · idempotent webhooks, including duplicate delivery · job queue with a dead-letter queue
-- **[llm-safety-guardrails](https://github.com/AliceTaylors/llm-safety-guardrails)** — deterministic guardrails for LLM assistants in health-adjacent domains, plus an eval harness. TypeScript, zero deps
-- **[programmatic-seo-generator](https://github.com/AliceTaylors/programmatic-seo-generator)** — pSEO engine with an auditable indexation threshold (anti scaled-content-abuse)
-- **[portfolio](https://github.com/AliceTaylors/portfolio)** — architecture case studies for everything above
+- **[multi-tenant-saas-starter](https://github.com/aureo-manzano/multi-tenant-saas-starter)** — tenant isolation · idempotent webhooks, including duplicate delivery · job queue with a dead-letter queue
+- **[llm-safety-guardrails](https://github.com/aureo-manzano/llm-safety-guardrails)** — deterministic guardrails for LLM assistants in health-adjacent domains, plus an eval harness. TypeScript, zero deps
+- **[programmatic-seo-generator](https://github.com/aureo-manzano/programmatic-seo-generator)** — pSEO engine with an auditable indexation threshold (anti scaled-content-abuse)
+- **[portfolio](https://github.com/aureo-manzano/portfolio)** — architecture case studies for everything above
 
 ---
 

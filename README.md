@@ -49,10 +49,10 @@ que eu estou oferecendo.
 
 ### 🧰 Open source — as partes difíceis, extraídas de produção
 
-- **[multi-tenant-saas-starter](https://github.com/AliceTaylors/multi-tenant-saas-starter)** — isolamento de tenant · webhooks idempotentes, incluindo entrega duplicada · fila com dead-letter queue
-- **[llm-safety-guardrails](https://github.com/AliceTaylors/llm-safety-guardrails)** — guardrails determinísticos para assistentes de IA em domínio de saúde, com harness de avaliação. TypeScript, zero dependências
-- **[programmatic-seo-generator](https://github.com/AliceTaylors/programmatic-seo-generator)** — motor de pSEO com limiar de indexação auditável (anti scaled-content-abuse)
-- **[portfolio](https://github.com/AliceTaylors/portfolio)** — case studies de arquitetura de tudo que está acima
+- **[multi-tenant-saas-starter](https://github.com/aureo-manzano/multi-tenant-saas-starter)** — isolamento de tenant · webhooks idempotentes, incluindo entrega duplicada · fila com dead-letter queue
+- **[llm-safety-guardrails](https://github.com/aureo-manzano/llm-safety-guardrails)** — guardrails determinísticos para assistentes de IA em domínio de saúde, com harness de avaliação. TypeScript, zero dependências
+- **[programmatic-seo-generator](https://github.com/aureo-manzano/programmatic-seo-generator)** — motor de pSEO com limiar de indexação auditável (anti scaled-content-abuse)
+- **[portfolio](https://github.com/aureo-manzano/portfolio)** — case studies de arquitetura de tudo que está acima
 
 ---
 
